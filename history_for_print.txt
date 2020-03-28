@@ -1,0 +1,6 @@
+    1  heroku --version
+    2  heroku login
+   48  heroku create manali-mandani-shopping
+   51  git remote add heroku https://git.heroku.com/manali-mandani-shopping.git
+   52  git push heroku master
+   53  history > history_for_print.txt
