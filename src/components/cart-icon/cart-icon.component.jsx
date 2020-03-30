@@ -20,11 +20,11 @@ const mapDispatchToProps = dispatch => ({
     toggleCartHidden: () => dispatch(toggleCartHidden())
 });
 
-const mapStateToProps = createStructuredSelector ({
+const mapStateToprops = createStructuredSelector ({
     itemCount: selectCartItemsCount
 });
 
 export default connect(
-    null, 
+    mapStateToprops, 
     mapDispatchToProps
 )(CartIcon);
