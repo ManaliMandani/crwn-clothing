@@ -43,11 +43,11 @@ const config = {
     return userRef;
   };
 
-  export const addCollectionAndDocuments =  async (
-    collectionkey, 
-    objectsToAdd
-  ) => {
-      const collectionRef = firestore.collection(collectionkey);
+export const addCollectionAndDocuments = async (
+  collectionKey,
+  objectsToAdd
+) => {
+  const collectionRef = firestore.collection(collectionKey);
 
       const batch = firestore.batch();
       objectsToAdd.forEach(obj=> {
