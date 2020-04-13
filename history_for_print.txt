@@ -1,6 +1,20 @@
-    1  heroku --version
-    2  heroku login
-   48  heroku create manali-mandani-shopping
-   51  git remote add heroku https://git.heroku.com/manali-mandani-shopping.git
-   52  git push heroku master
-   53  history > history_for_print.txt
+    1  heroku apps
+    2  heroku git:remote -a manali-mandani-shopping
+    3  heroku buildpacks
+    4  heroku create
+    5  heroku apps
+    6  heroku destroy fast-escarpment-49327
+    7  heroku destroy fast-escarpment-49327
+    8  heroku destroy --confirm fast-escarpment-49327
+    9  heroku destroy fast-escarpment-49327
+   10  heroku create manalimandani-shopping
+   11  git remote -v
+   12  git remote remove heroku
+   13  git remote -v
+   14  heroku git:remote -a manalimandani-shopping
+   15  git remote -v
+   16  heroku config:set STRIPE_SECRET_KEY=sk_test_sPnRmssu1GtG13FBRWeDHjuG007cEtSUTc
+   17  git push heroku master
+   18  heroku open
+   19  doskey /HISTORY > history.txt
+   20  history > history_for_print.txt

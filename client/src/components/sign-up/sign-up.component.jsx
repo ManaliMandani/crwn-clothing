@@ -7,7 +7,7 @@ import CustomButton from '../custom-button/custom-button.component';
 import { signUpStart } from '../../redux/user/user.actions';
 
 import { SignUpContainer, SignUpTitle } from './sign-up.styles';
-import { unstable_batchedUpdates } from 'react-dom';
+//import { unstable_batchedUpdates } from 'react-dom';
 
 const SignUp = ({ signUpStart }) => {
   const [userCredentials, setUserCredentials] = useState({
