@@ -29,7 +29,7 @@ app.listen(port, error => {
     console.log('Server running on port ' + port);
 });
 
-app.get('/service-Worker.js', (req, res) => {
+app.get('/service-worker.js', (req, res) => {
   res.sendFile(path.resolve(__diename, '..', 'build', 'service-worker.js'));
 });
 
